@@ -1,38 +1,154 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inconsolata:wght@200..900&display=swap');
+
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .App {
+  padding:0px;
+  margin:0;
+  color:rgb(102, 102, 102);
+}
+
+.main-title.small {
+    color: #691369;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    font-family: "Fredericka the Great", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 1.4;
+}
+.subtitle{
+  font-family: "Inconsolata", monospace;
+  /* font-family: "Cutive Mono", sans-serif; */
+  width: 100%;
+  color: #691369;
+  text-align: center;
+  letter-spacing: .1em;
+  font-style: normal;
+  line-height: 1.4;
+  font-size: 1.5em;
+}
+.border{
+  border: 2px solid black;
+}
+.card{
+  width:75%;
+}
+.subheading{
+  font-family: "Great Vibes", cursive;
+  font-style: bold;
+  font-size:2.5em;
+}
+.profile{
+  width: 85%;
+  height: 100%;
+}
+
+.logo{
+  width: 50%;
+  height: 10%;
+
+}
+.projectcard{
+  width:90%;
+  font-size: 1.4em;
+  height:80%;
+}
+.projectcard-img{
+  width:50%;
+  height:40%;
+
+}
+.skillcard{
+  width:150px;
+  height:100px;
+}
+.center{
   text-align: center;
 }
+#contact{
+  font-family: "Inconsolata", monospace;
+  max-width: 100%;
+  color: #666;
+  letter-spacing: .14px;
+  margin-bottom: 0;
+  font-size:  1.5rem;
+  font-weight: 400;
+  line-height: 30px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-contact{
+  width: 100%;
+  font-size:2.5em;
+  letter-spacing: .14px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-color a{
+  color: black;
+  text-decoration: none;
+}
+.text-color a:active{
+  background-color: black;
   color: white;
+  border: 2px solid black;
+}
+.thanks{
+  padding-top:20px;
+  padding-bottom:20px;
+  color:black
+}
+@media only screen and (max-width: 991px)  {
+  .profile{
+    width: 100%;
+  }
+  .projectcard,.skillcard{
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  .profile{
+    height: 90%;
+  }
+  .projectcard,.skillcard{
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 574px)  {
+ 
+  .logo{
+    display: none;
+  
+  }
+  body{
+    padding:5%;
+  }
+  /* .thanks{
+    padding-top:20px;
+    padding-bottom:20px;
+  } */
+  .projectcard,.skillcard{
+    margin: auto;
+  }
+  .profile{
+    display: none;
+  }
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* @media only screen and (max-width: 768px)  {
+  .profile{
+    display: none;
+  }
+  #home{
+    text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
