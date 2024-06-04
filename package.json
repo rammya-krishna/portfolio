@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rammya-krishna.github.io/portfolio",
+  "homepage": "http://rammya-krishna.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-common-types": "^6.5.1",
