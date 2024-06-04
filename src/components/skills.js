@@ -6,7 +6,7 @@ class Skill extends Component{
     constructor(props){
         super(props)
         this.state={
-            title:['python','Flask','Django','Sql','Mongodb','Html','css','JavaScript','Git','Node JS'],
+            title:['python','Flask','Django','Sql','Mongodb','Html','css','JavaScript','Git','Node JS','React'],
         }
     }
     render(){
@@ -33,7 +33,6 @@ function SkillCard(props){
                 <Row>
                     <Col>
                         <Card className='skillcard'>
-                            {/* <Card.Img src={props.img}  variant="top" className='skillcard-img'></Card.Img> */}
                             <Card.Body>
                             <Card.Title className='center'>{props.title}</Card.Title>
                             </Card.Body>

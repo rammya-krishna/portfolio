@@ -59,14 +59,8 @@
 
 }
 .projectcard{
-  width:90%;
+  color: black;
   font-size: 1.4em;
-  height:80%;
-}
-.projectcard-img{
-  width:50%;
-  height:40%;
-
 }
 .skillcard{
   width:150px;

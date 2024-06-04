@@ -17,7 +17,7 @@ class Home extends Component{
                         <h1 className="main-title small">Rammya Krishna</h1>
                         <div className="subtitle">or you can call me</div>
                         <h1 className="main-title small">RK</h1>
-                        <div className="subtitle">I'm a Full Stack Web Developer<br/>
+                        <div className="subtitle">I'm a Full Stack Developer<br/>
                         Happy to participate in or help build <br/> something that is appealing</div>
                     </Col>
                 </Row>

@@ -19,7 +19,7 @@ class Contact extends Component{
                     </p>   
                 </div>
                 <div className="col col-sm-6 d-flex justify-content-center  align-self-center">
-                    <a href="mailto:rammyakrishna018.com"><Button className='btn-contact' variant="dark">Contact Me</Button></a>
+                    <a href="mailto:rammyakrishna018@gmail.com"><Button className='btn-contact' variant="dark">Contact Me</Button></a>
                 </div>
                 <h4 className='center thanks'>"Thanks For Scrolling!"</h4>
             </div>
